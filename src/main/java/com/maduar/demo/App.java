@@ -15,6 +15,7 @@ import com.maduar.demo.entity.Customer;
 import com.maduar.demo.repository.CustomerRepository;
 
 @SpringBootApplication
+//		(scanBasePackages={"com.maduar.demo", "com.maduar.demo.service"})
 public class App {
 
 	private static final Logger log = LoggerFactory.getLogger(App.class);
